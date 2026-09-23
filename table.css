@@ -1,5 +1,4 @@
 body {
-   
     background-color: #f5f5f5;
     font-family: Roboto;
     justify-content: center;
@@ -67,9 +66,12 @@ body {
     height: 12px;
 }
 
-
 .chemical-element:hover {
     color: darkgreen
+}
+
+.chemical-element:hover {
+    transform: scale(1.08);
 }
 
 .chemical-element > div:first-child {
@@ -84,6 +86,7 @@ body {
     font-size: 12.5px;
     text-transform: capitalize;
     text-align: center;
+    padding-top: 3px;
 }
 
 .chemical-element > div:nth-child(2) {
